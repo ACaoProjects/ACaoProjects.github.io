@@ -5,26 +5,27 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+# remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 # Site Settings
 lang: en-US
-title: Basically Basic
-email: dugan.nash@mailinator.com
-description: "Your new default Jekyll theme"
-baseurl: "/jekyll-theme-basically-basic"
-url: "https://mmistakes.github.io"
-repository: "mmistakes/minimal-mistakes"
+title: ACao
+email: livia.cao@hotmail.com
+description: "My Website"
+baseurl: ""
+url: "http://www.anpingcao.com"
 author:
-  name: Dugan Nash
-  twitter: Towlette_Pettetucci
+  name: Anping Cao
+  twitter: anpingcao
   picture: /assets/images/johndoe.png
-twitter_username: Towlette_Pettetucci
-github_username: Towlette_Pettetucci
 logo: /assets/icons/basically-basic-logo-light.svg
-google_analytics: UA-2011187-6
+
+linkedin_username: anpingcao
+github_username: ACaoProjects
+google_analytics: ""
 disqus:
-  shortname: basically-basic-theme
+  shortname: ""
+
 search: true
 search_full_content: true
 search_provider: lunr
@@ -33,6 +34,8 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+liquid:
+  error_mode: strict
 
 # Conversion
 markdown: kramdown
